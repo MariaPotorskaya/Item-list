@@ -1,0 +1,63 @@
+body {
+  background-color: #fff3e4;
+}
+.App {
+  width: 70%;
+  margin: 10px auto;
+  font-size: 16px;
+}
+.NewItem {
+  background-color: #ffc8f8;
+  margin: 10px 0px;
+  border-radius: 5px;
+  position: relative;
+}
+.NewItem input {
+  border: 2px solid #acdce3;
+  height: 34px;
+  border-radius: 15px;
+  margin: 10px;
+}
+.NewItem .name input {
+  width: 250px;
+}
+.NewItem .count input {
+  width: 50px;
+}
+.NewItem label {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.Item {
+  background-color: #cfebff;
+  margin: 10px 0px;
+  border-radius: 5px;
+  position: relative;
+}
+.Item section {
+  display: inline-block;
+}
+.complite section:first-child {
+  text-decoration: line-through;
+}
+button {
+  border: 2px solid #ffb6b6;
+  background-color: white;
+  width: 80px;
+  height: 34px;
+  border-radius: 15px;
+  font-size: 16px;
+  margin: 5px;
+}
+.button {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}
+.text {
+  margin: 18px;
+}
+button:hover {
+  font-weight: bold;
+  border-width: 0px;
+}
